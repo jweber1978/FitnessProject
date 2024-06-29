@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Fit For Fun Fitness Club</title>
+        <link href="style.css" rel="stylesheet">
+        <!--
+        Author: Joanie Weber
+        Date: 06/24/2024
+        Assignment: Fit For Fun Fitness Club
+        Filename: info.html-->
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+        <form>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname" required>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required>
+        </form>
+        <form action="/action_page.php" target="_blank" method="post">
+            <p>Choose Classes You Are Interested In</p>
+            <input type="checkbox" id="class1" name="class1" value="group exercise">
+            <label for="class1">Group Exercise</label><br>
+            <input type="checkbox" id="class2" name="class2" value="dance">
+            <label for="class2">Dance</label><br>
+            <input type="checkbox" id="class3" name="class3" value="water exercise">
+            <label for="class3">Water Exercise</label><br>
+            <input type="checkbox" id="class4" name="class4" value="youth fitness">
+            <label for="class4">Youth Fitness</label><br>
+            <input type="checkbox" id="class5" name="class5" value="cycling">
+            <label for="class5">Cycling</label><br>
+            <input type="checkbox" id="class6" name="class6" value="adaptive exercise">
+            <label for="class6">Adaptive Exercise</label><br>
+        </form>
+    </body>
+</html>
